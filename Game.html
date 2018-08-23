@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+
+<style>
+	body {
+		background-color: #efeded;
+	}
+	.flex {
+		display: flex;
+		justify-content: space-around;
+	}
+
+	.startgame {
+		background-color: #8c8585;
+		width: 150px;
+		height: 50px;
+		border-radius: 5px;
+		box-shadow: 0px 0px 10px #666666;
+		border-style: none;
+		margin: 100px;
+	}
+
+	.startgame:active {
+		background-color: #666060;
+		box-shadow: 0px 0px 40px #666060;
+	}
+
+	.bootin {
+		background-color: #888888;
+		width: 150px;
+		height: 150px;
+		border-radius: 150px;
+		box-shadow: 0px 0px 20px #666666;
+		border-style: none;
+
+	}
+
+	.bootin:focus {
+		outline:0;
+	}
+
+	.yellow {
+		background-color: #f7f02a;
+
+	}
+
+	.yellow:active {
+		background-color: #99941d;
+		box-shadow: 0px 0px 40px #99941d;	
+	}
+
+	.red {
+		background-color: #e52c22;
+		margin-left: 200px;
+	}
+
+	.red:active {
+		background-color: #841c16;
+		box-shadow: 0px 0px 40px #841c16;	
+	}
+
+	.blue {
+		background-color: #2e78f7;
+		margin-right: 200px;
+	}
+
+	.blue:active {
+		background-color: #1a386d;
+		box-shadow: 0px 0px 40px #1a386d;
+	}
+
+	.green {
+		background-color: #38f457;
+	}
+
+	.green:active {
+		background-color: #1e7f2e;
+		box-shadow: 0px 0px 40px #1e7f2e;
+	}
+</style>
+
+</head>
+<body>
+<div class="flex">
+	<button class="startgame">Start</button>
+</div>	
+
+<div class="flex">
+	<button class="bootin yellow" >boop</button>
+</div>
+
+<div class="flex">
+	<div class="blocks">
+		<button class="bootin red">boop</button>
+	</div>
+	<div class="blocks">
+		<button class="bootin blue">boop</button>
+	</div>
+</div>
+
+<div class="flex">
+	<button class="bootin green">boop</button>
+</div>
+
+</body>
+</html>
