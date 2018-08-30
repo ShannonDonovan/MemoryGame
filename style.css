@@ -14,7 +14,7 @@ body {
 	border-radius: 5px;
 	box-shadow: 0px 0px 10px #666666;
 	border-style: none;
-	margin: 100px;
+	margin-top: 100px;
 }
 
 .startGame:active {
@@ -72,4 +72,12 @@ body {
 .green:active {
 	background-color: #1e7f2e;
 	box-shadow: 0px 0px 40px #1e7f2e;
+}
+
+#statusBar {
+	text-align: center;
+	font-family: helvetica;
+	margin-top:30px;
+	margin-bottom:30px;
+	
 }
